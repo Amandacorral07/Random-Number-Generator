@@ -45,7 +45,7 @@ img {
 }
 
 h1{
-  color: #4e479a;
+  color: #165171;
   font-size: 28px;
 }
 
@@ -53,8 +53,8 @@ h1{
   width: 40rem;
   border: 1px solid var(--grey);
   padding: 1rem;
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-  color: white;
+  background: linear-gradient(108.1deg, rgb(167, 220, 225) 11.2%, rgb(217, 239, 242) 88.9%);
+  color: rgb(124, 84, 176);
   text-align: center;
   border-radius: 15px;
 
@@ -76,17 +76,20 @@ h1{
   font-weight: 700;
   border: none;
   outline: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-button.subtract{
-  background-color: #e65d9f;
-}
+
 button.reset{
-  background-color: rgb(255, 113, 36);
-}
-button.add{
-  background-color: rgb(159, 116, 222);
+  background-color:  #165171;
 }
 
+button.second{
+  background-color: #31326f;
+}
+
+button.third{
+  background-color: #005490;
+  margin-top: 2rem;
+}
